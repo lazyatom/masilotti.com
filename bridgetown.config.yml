@@ -20,6 +20,8 @@ production:
     events:
       workshop_ticket: AWZOJS4N
 
+highlighter: ""
+
 preview_links:
   site_id: 755
 

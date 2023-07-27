@@ -47,11 +47,11 @@ module.exports = {
           "--tw-prose-hr": theme("colors.zinc.100"),
           "--tw-prose-quote-borders": theme("colors.zinc.200"),
           "--tw-prose-captions": theme("colors.zinc.400"),
-          "--tw-prose-code": theme("colors.zinc.700"),
-          "--tw-prose-code-bg": theme("colors.zinc.300 / 0.2"),
-          "--tw-prose-pre-code": theme("colors.zinc.100"),
-          "--tw-prose-pre-bg": theme("colors.zinc.900"),
-          "--tw-prose-pre-border": "transparent",
+          // "--tw-prose-code": theme("colors.zinc.700"),
+          // "--tw-prose-code-bg": theme("colors.zinc.300 / 0.2"),
+          // "--tw-prose-pre-code": theme("colors.zinc.100"),
+          // "--tw-prose-pre-bg": theme("colors.zinc.900"),
+          // "--tw-prose-pre-border": "transparent",
           "--tw-prose-th-borders": theme("colors.zinc.200"),
           "--tw-prose-td-borders": theme("colors.zinc.100"),
 
@@ -123,22 +123,22 @@ module.exports = {
             color: "var(--tw-prose-bold)",
             fontWeight: theme("fontWeight.semibold"),
           },
-          code: {
-            display: "inline-block",
-            color: "var(--tw-prose-code)",
-            fontSize: theme("fontSize.sm")[0],
-            fontWeight: theme("fontWeight.semibold"),
-            backgroundColor: "var(--tw-prose-code-bg)",
-            borderRadius: theme("borderRadius.lg"),
-            paddingLeft: theme("spacing.1"),
-            paddingRight: theme("spacing.1"),
-          },
-          "a code": {
-            color: "inherit",
-          },
-          ":is(h2, h3) code": {
-            fontWeight: theme("fontWeight.bold"),
-          },
+          // code: {
+            // display: "inline-block",
+            // color: "var(--tw-prose-code)",
+            // fontSize: theme("fontSize.sm")[0],
+            // fontWeight: theme("fontWeight.semibold"),
+            // backgroundColor: "var(--tw-prose-code-bg)",
+            // borderRadius: theme("borderRadius.lg"),
+            // paddingLeft: theme("spacing.1"),
+            // paddingRight: theme("spacing.1"),
+          // },
+          // "a code": {
+            // color: "inherit",
+          // },
+          // ":is(h2, h3) code": {
+            // fontWeight: theme("fontWeight.bold"),
+          // },
 
           // Quotes
           blockquote: {
@@ -199,26 +199,26 @@ module.exports = {
           },
 
           // Code blocks
-          pre: {
-            color: "var(--tw-prose-pre-code)",
-            fontSize: theme("fontSize.sm")[0],
-            fontWeight: theme("fontWeight.medium"),
-            backgroundColor: "var(--tw-prose-pre-bg)",
-            borderRadius: theme("borderRadius.3xl"),
-            padding: theme("spacing.8"),
-            overflowX: "auto",
-            border: "1px solid",
-            borderColor: "var(--tw-prose-pre-border)",
-          },
-          "pre code": {
-            display: "inline",
-            color: "inherit",
-            fontSize: "inherit",
-            fontWeight: "inherit",
-            backgroundColor: "transparent",
-            borderRadius: 0,
-            padding: 0,
-          },
+          // pre: {
+            // color: "var(--tw-prose-pre-code)",
+            // fontSize: theme("fontSize.sm")[0],
+            // fontWeight: theme("fontWeight.medium"),
+            // backgroundColor: "var(--tw-prose-pre-bg)",
+            // borderRadius: theme("borderRadius.3xl"),
+            // padding: theme("spacing.8"),
+            // overflowX: "auto",
+            // border: "1px solid",
+            // borderColor: "var(--tw-prose-pre-border)",
+          // },
+          // "pre code": {
+            // display: "inline",
+            // color: "inherit",
+            // fontSize: "inherit",
+            // fontWeight: "inherit",
+            // backgroundColor: "transparent",
+            // borderRadius: 0,
+            // padding: 0,
+          // },
 
           // Horizontal rules
           hr: {
