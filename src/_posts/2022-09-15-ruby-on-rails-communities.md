@@ -60,4 +60,8 @@ Twitter communities are like super focused newsfeeds. Content on The Ruby on Rai
 ### [Ruby for Good Slack](https://rubyforgood.slack.com/join/shared_invite/zt-1kfeimohe-KL~~~6Lkof7G94_7Ojd_Hw#/shared-invite/email)
 This is a small (around 2000 members) but active community working on impactful projects. It is maintained by the [Ruby for Good](https://rubyforgood.org) organization.
 
+### [Ruby.social](https://ruby.social)
+This Mastodon instance is specifically focussed on providing a calm and interesting space for Rubyists and friends to gather and share, without all of the unsavuriness of... that _other_ place.
+
+
 Made it to the end but didn't find your favorite Ruby on Rails community? [Send me an email](mailto:joe@masilotti.com) or [submit a PR](https://github.com/joemasilotti/masilotti.com/blob/main/_posts/2022-08-15-ruby-on-rails-communities.md)!
